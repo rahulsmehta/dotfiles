@@ -6,6 +6,7 @@
   co = checkout
   br = branch
   cam = commit -a -m
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   ca = commit -a 
   cm = commit -m
   st = status
