@@ -1,0 +1,15 @@
+[user]
+	name = Rahul Mehta
+  email = mehta.rahul95@gmail.com
+
+[alias]
+  co = checkout
+  br = branch
+  cam = commit -a -m
+  ca = commit -a 
+  cm = commit -m
+  st = status
+  po = push origin
+  pom = push origin master
+  poi = push origin integration
+  pos = push origin staging
