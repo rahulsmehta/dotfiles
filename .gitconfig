@@ -1,16 +1,15 @@
 [user]
-	name = Rahul Mehta
-  email = mehta.rahul95@gmail.com
+    name = Rahul Mehta
+    email = mehta.rahul95@gmail.com
 
 [alias]
-  co = checkout
-  br = branch
-  cam = commit -a -m
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-  ca = commit -a 
-  cm = commit -m
-  st = status
-  po = push origin
-  pom = push origin master
-  poi = push origin integration
-  pos = push origin staging
+    co = checkout
+    br = branch
+    cam = commit -a -m
+    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+    ca = commit -a 
+    cm = commit -m
+    st = status
+    rb = rebase
+
